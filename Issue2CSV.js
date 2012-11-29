@@ -23,7 +23,7 @@
         method: "POST",
         auth: "user:password", //this is unfortunate, but required due to rate limiting
         headers: {
-            "Content-Length": 2
+            "Content-Length": 2 //don't ask
         }
     }, function(response) {
         response.on('data', function(data) {
