@@ -5,5 +5,6 @@ A collection of scripts, each of which logs into a GitHub account and downloads 
 
 Run the scripts as <runtime> Issues2CSV.<ext> <repo owner> <repo name>. For example, to run the Python extractor on the ITC210 theme repo, we might run:
 
-'''
+```
 py Issues2CSV.py thomaswilburn itc210-theme
+```
