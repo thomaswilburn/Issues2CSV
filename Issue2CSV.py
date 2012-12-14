@@ -28,7 +28,7 @@ issues = parseResponse(server)
 server.request("GET", issueURI + "?state=closed", headers=authHeader);
 issues = issues + parseResponse(server)
 
-f = open('output.csv', 'w')
+f = open(sys.argv[2] + '.csv', 'w')
 writer = csv.writer(f, lineterminator='\n')
 
 for i in issues:
